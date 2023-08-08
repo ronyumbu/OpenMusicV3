@@ -57,4 +57,7 @@
 - Untuk menjalankan request secara berurutan sekaligus, Anda bisa memanfaatkan fitur collection runner.
 - Khusus untuk permintaan pada folder Uploads, jangan ikut sertakan untuk dijalankan menggunakan collections. Karena pengujian akan selalu gagal. Jadi pastikan ketika hendak menjalankan seluruh permintaan pada collection, pengujian pada folder Uploads tidak dicentang.
 - Kerjakanlah proyek fitur demi fitur, agar Anda mudah dalam menjalankan pengujiannya.
-- Jika merasa seluruh fitur yang dibangun sudah benar namun pengujiannya selalu gagal, kemungkinan database Anda kotor dengan data pengujian yang Anda lakukan sebelum-sebelumnya, dan itu bisa menjadi salah satu penyebab pengujian selalu gagal. Solusinya, silakan hapus seluruh data pada tabel melalui psql dengan perintah: ```bash truncate albums, songs, users, authentications, playlists, playlistsongs, playlist_song_activities, collaborations, user_album_likes; ```
+- Jika merasa seluruh fitur yang dibangun sudah benar namun pengujiannya selalu gagal, kemungkinan database Anda kotor dengan data pengujian yang Anda lakukan sebelum-sebelumnya, dan itu bisa menjadi salah satu penyebab pengujian selalu gagal. Solusinya, silakan hapus seluruh data pada tabel melalui psql dengan perintah:
+  ```bash
+  truncate albums, songs, users, authentications, playlists, playlistsongs, playlist_song_activities, collaborations, user_album_likes;
+  ```
