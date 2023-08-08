@@ -20,7 +20,7 @@
     "lint": "eslint ./src"
   },
   ```
-
+  
 ---
 # Setup dependencies
 - Klik *Terminal* -> *New Terminal*
@@ -50,3 +50,6 @@
         * Which package manager do you want to use? -> npm.
     
 * **NOTE**: saya tidak menggunakan nodemon, tetapi jika teman-teman ingin menggunakannya, silahkan
+
+---
+# Tips Menjalankan Pengujian OpenMusic V3
